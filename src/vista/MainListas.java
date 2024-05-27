@@ -3,6 +3,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package vista;
+
+import java.util.Scanner;
+
 /**
  *
  * @author PC19
@@ -19,11 +22,16 @@ public class MainListas {
             
         }
         int acumulador=0;
+        int mayor=0;
         for(int a:listaNumero){
             
             acumulador+=a;
+            if (a>mayor){
+                mayor=a;
+            }
         }
         System.out.println("La suma de la lista es:"+acumulador);
+        System.out.println("el mayor es:"+mayor);
     }
     
 }    
