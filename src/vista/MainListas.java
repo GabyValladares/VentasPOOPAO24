@@ -50,6 +50,7 @@ public class MainListas {
     public static void main(String[] args) {
         Scanner es=new Scanner(System.in);
         //LISTA DE NÚMEROS ENTEROS Y CONOCER CUANTO SUMAN LOS NÚMEROS EN TOTAL
+        
         System.out.println("Ingrese el tamaño de la lista a generar:");
         int[] listaNumero=new int[es.nextInt()];
         for (int i = 0; i < listaNumero.length; i++) {
@@ -76,6 +77,13 @@ public class MainListas {
                 sumaImpares += a;
             }
         }
+      
+        for (int i=0;i<4;i++){
+             c[i]=a[i]+b[i];
+                }
+                for (int ci:c){
+              sout (ci);
+                       }
         System.out.println("La suma de la lista es: " +  acumulador);
         System.out.println("El número mayor es: " + mayor);
         System.out.println("El número menor es: " + menor);
