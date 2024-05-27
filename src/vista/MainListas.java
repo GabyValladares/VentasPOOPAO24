@@ -45,10 +45,7 @@ package vista;
 
 import java.util.Scanner;
 
-/**
- *
- * @author PC19
- */
+
 public class MainListas {
     public static void main(String[] args) {
         Scanner es=new Scanner(System.in);
